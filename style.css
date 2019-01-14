@@ -94,14 +94,16 @@ body{
   #showcase{
     min-height:400px;
     background: url('Computer3.png') no-repeat 0 -400px;
+    background-position:center;
     text-align:center;
     color:#ffffff;
   }
 
-  @media only creen and (max-width:600px){
+  @media only screen and (max-width:600px){
     #showcase{
     min-height:80px;
-    background: url('Computer3.png') no-repeat 0 400px;
+    background: url('Computer3.png') no-repeat 0 -400;
+    background-position:center;
     text-align:center;
     color:#ffffff;
     }
