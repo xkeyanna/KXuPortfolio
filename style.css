@@ -97,6 +97,15 @@ body{
     text-align:center;
     color:#ffffff;
   }
+
+  @media only creen and (max-width:600px){
+    #showcase{
+    min-height:80px;
+    background: url('Computer3.png') no-repeat 0 400px;
+    text-align:center;
+    color:#ffffff;
+    }
+  }
   
   #showcase h1{
     margin-top:100px;
