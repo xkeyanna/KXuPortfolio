@@ -19,7 +19,7 @@ body{
   
   .button_1{
     height:38px;
-    background:#60daf8;
+    background:#65b2c5;
     border:0;
     padding-left: 20px;
     padding-right:20px;
@@ -32,7 +32,7 @@ body{
     color:#ffffff;
     margin-top:10px;
     margin-bottom:10px;
-    border-color:#60daf8;
+    border-color:#65b2c5;
     border-style:solid;
   }
   .light{
@@ -41,7 +41,7 @@ body{
     color:#434b51;
     margin-top:10px;
     margin-bottom:10px;
-    border-color:#60daf8;
+    border-color:#65b2c5;
     border-style:solid;
   }
   
@@ -51,7 +51,7 @@ body{
     color:#ffffff;
     padding-top:30px;
     min-height:70px;
-    border-bottom:#60daf8 3px solid;
+    border-bottom:#65b2c5 3px solid;
   }
   
   header a{
@@ -81,7 +81,7 @@ body{
   }
   
   header .highlight, header .current a{
-    color:#60daf8;
+    color:#65b2c5;
     font-weight:bold;
   }
   
@@ -93,7 +93,7 @@ body{
   /* Showcase */
   #showcase{
     min-height:400px;
-    background: url('Computer3.png') no-repeat 0 -400px;
+    background: url('images/Computer3.png') no-repeat 0 -400px;
     background-position:center;
     text-align:center;
     color:#ffffff;
@@ -102,7 +102,7 @@ body{
   @media only screen and (max-width:600px){
     #showcase{
     min-height:80px;
-    background: url('Computer3.png') no-repeat 0 -400;
+    background: url('images/Computer3.png') no-repeat 0 -400;
     background-position:center;
     text-align:center;
     color:#ffffff;
@@ -188,7 +188,7 @@ body{
     padding:20px;
     margin-top:20px;
     color:#ffffff;
-    background-color:#60daf8;
+    background-color:#65b2c5;
     text-align: center;
   }
   
