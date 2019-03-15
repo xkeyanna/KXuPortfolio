@@ -7,7 +7,14 @@
 	  <meta name="keywords" content="web design, affordable web design, professional web design">
   	<meta name="author" content="Brad Traversy">
     <title>Keyanna Xu Web Development | Services</title>
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script src = "app.js"></script>
     <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
     <header>
@@ -56,17 +63,17 @@
             <form class="quote">
   						<div>
   							<label>Name</label><br>
-  							<input type="text" placeholder="Name">
+  							<input type="text" id = "nameInput" placeholder="Name">
   						</div>
   						<div>
   							<label>Email</label><br>
-  							<input type="email" placeholder="Email Address">
+  							<input type="email" id = "emailInput" placeholder="Email Address">
   						</div>
   						<div>
   							<label>Message</label><br>
-  							<textarea placeholder="Message"></textarea>
+  							<textarea id = "messageInput" placeholder="Message"></textarea>
   						</div>
-  						<button class="button_1" type="submit">Send</button>
+  						<button class="button_1" id="submitQuoteRequest" type="submit">Send</button>
 					</form>
           </div>
         </aside>
