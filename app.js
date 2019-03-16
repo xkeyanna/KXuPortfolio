@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
   // var personData = new Firebase("https://keyanna-s-portfolio.firebaseio.com/");
+
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyBjO-MgX8nUlStNXJ4WK98quHnd8RKqPpk",
@@ -11,6 +12,7 @@ $(document).ready(function () {
     messagingSenderId: "1044795276395"
   };
   firebase.initializeApp(config);
+
 
   const personData = firebase.database()
 
